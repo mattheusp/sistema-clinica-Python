@@ -1,10 +1,3 @@
-# O progama solicita o nome e o telefone do usuário.
-
-# Após o cadastro, exibe a mensagem "paciente cadastrado com sucesso" e
-# adiciona ao paciente a lista de Pacientes cadastrados 
-
-# em em seguida, retorna ao menu principal
-
 import csv
 from datetime import datetime
 
