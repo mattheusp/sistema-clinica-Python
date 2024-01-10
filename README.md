@@ -1,2 +1,2 @@
-# sistema-clinica-Python
- Sistema de agendamento de para cliníca de consultas utilizando Python.
+# Processo-seletivo-aceleradora-agil
+ Processo-seletivo-aceleradora-agil

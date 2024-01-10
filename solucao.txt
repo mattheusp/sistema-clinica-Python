@@ -1,0 +1,55 @@
+**Solução para o Sistema de Clínica de Consultas**
+
+**Introdução:**
+
+A solução para o sistema de clínica de consultas foi desenvolvido com a linguagem Python.
+As bibliotecas quem foram utilizadas foram:
+csv - Facilita a leitura e escrita de dados em formato tabular.
+datetime -  é utilizada para manipulação de datas e horas.
+
+Ele permite cadastrar pacientes, marcar e cancelar consultas, além de persistir os dados para uso contínuo.
+
+**Funcionalidades Implementadas:**
+
+1. **Cadastro de Paciente:**
+   - Cadastro simples com nome e telefone.
+   - Evita duplicidade através da verificação do número de telefone.
+   - Os dados dos pacientes são armazenados no arquivo `pacientes.csv`.
+
+2. **Marcação de Consulta:**
+   - Permite escolher um paciente e agendar uma consulta.
+   - Verifica disponibilidade do horário e impede que seja realizados agendamentos retroativos.
+   - As consultas agendadas são salvas no arquivo `consultas.csv`.
+
+3. **Cancelamento de Consulta:**
+   - Permite cancelar consultas existentes.
+   - Mostra detalhes antes de confirmar o cancelamento.
+
+4. **Persistência de Dados:**
+   - É utilizado arquivos CSV para persistência dos dados entre execuções.
+   - Ao iniciar, carrega automaticamente informações dos pacientes e consultas.
+
+5. **Tratamento de Erros:**
+   - Evita cadastros duplicados e agendamentos em horários ocupados.
+   - As mensagens de erro vão ser visiveis para orientar o usuário.
+
+**Instruções de Uso:**
+
+1. Execute o programa em Python.
+2. Escolha opções do menu para cadastrar pacientes, marcar ou cancelar consultas.
+3. Os dados são salvos automaticamente nos arquivos CSV para uso futuro.
+
+**Decisões Tomadas:**
+
+1. **Escolha da Linguagem:**
+   - Python foi escolhido pela facilidade de entender e legibilidade.
+
+2. **Persistência em Arquivos CSV:**
+   - Os arquivos CSV são utilizados para facilitar a edição manual dos dados.
+
+3. **Tratamento de Erros:**
+   - Abordagem proativa para evitar erros comuns.
+
+**Considerações Finais:**
+
+O sistema oferece uma solução prática para a gestão de consultas para a clínica local do bairro.
