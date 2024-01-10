@@ -36,5 +36,5 @@ Uma aplicação simples desenvolvida em Python para gerenciar consultas em uma c
 
 ## Capturas de Tela
 
-![Captura 1](capturas\print 1.png)
-![Captura 2](capturas\print 2.png)
+![Captura 1](capturas/print%201.png)
+![Captura 2](capturas/print%202.png)
